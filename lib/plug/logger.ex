@@ -47,5 +47,5 @@ defmodule Plug.Logger do
   defp formatted_diff(diff), do: [Integer.to_string(diff), "µs"]
 
   defp connection_type(%{state: :set_chunked}), do: "Chunked"
-  defp connection_type(_), do: "Sent"
+  defp connection_type(_), do: "Sent TO THE LOGGER!!!!!!"
 end
